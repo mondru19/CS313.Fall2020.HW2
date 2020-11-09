@@ -19,9 +19,9 @@ int main()
 
     //The size of my stacks will be 1000, therefore any more than that will be overloaded. it ONLY mean my particular stack can only fit 1000 elements.
     //The stack will never be full
-    stackType<int>originalStack(1000);
-    stackType<int>secondStack(1000);
-    stackType<int>sameStack(1000);
+    stackType<int>originalStack(10);
+    stackType<int>secondStack(10);
+    stackType<int>sameStack(10);
     
     originalStack.initializeStack(); //Initialize the top of the stack to be 0 because the stack still empty
     secondStack.initializeStack(); //Initialize the top of the stack to be 0 because the stack still empty
